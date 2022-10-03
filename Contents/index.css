@@ -1,0 +1,66 @@
+#gamesection, #demosection {
+    margin-bottom: 5%;
+}
+
+.infosection {
+    background-color: #ffe0e9;
+    padding: 5%;
+    text-align: center;
+    color: #464646;
+}
+
+.gamesection {
+    background-color: #ffe0e9;
+    color: #464646;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 50px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.gamesection:hover {
+    text-decoration: none;
+    color: #464646;
+    background-color: #eb8faf;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.gamesection:visited {
+    text-decoration: none;
+    color: #464646;
+}
+
+.gameimg {
+    width: 75px;
+}
+
+.gametitle{
+    margin: 20px;
+}
+
+@media screen and (max-width: 615px) { 
+    .gameimg {
+        width: 50px;
+    }
+
+    .gametitle {
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    .sectiontitle {
+        font-size: 30px;
+    }
+
+    .demotitle {
+        font-size: 25px;
+    }
+    
+    .video {
+        width: 320px;
+        height: 240px;
+    }
+}
